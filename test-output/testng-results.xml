@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="20" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-12T17:47:52 IST" name="All" finished-at="2022-06-12T17:50:33 IST" duration-ms="160724">
+    <groups>
+      <group name="Sanity">
+        <method signature="CartAddTest.addToCartTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.CartAddTest@32eff876]" name="addToCartTest" class="com.myamazon.testcases.CartAddTest"/>
+        <method signature="LoginTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.LoginTest@14dd9eb7]" name="loginTest" class="com.myamazon.testcases.LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="CartAddTest.addToCartTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.CartAddTest@32eff876]" name="addToCartTest" class="com.myamazon.testcases.CartAddTest"/>
+        <method signature="EndToEndTest.endToEndTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.EndToEndTest@5e0826e7]" name="endToEndTest" class="com.myamazon.testcases.EndToEndTest"/>
+        <method signature="TotalPriceTest.totalPriceTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.TotalPriceTest@3ce1e309]" name="totalPriceTest" class="com.myamazon.testcases.TotalPriceTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.LoginTest@14dd9eb7]" name="loginTest" class="com.myamazon.testcases.LoginTest"/>
+        <method signature="OrderHistoryWishlistLabelTest.orderHistoryDetailTest(java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.OrderHistoryWishlistLabelTest@71809907]" name="orderHistoryDetailTest" class="com.myamazon.testcases.OrderHistoryWishlistLabelTest"/>
+        <method signature="OrderHistoryWishlistLabelTest.wishlistTest()[pri:0, instance:com.myamazon.testcases.OrderHistoryWishlistLabelTest@71809907]" name="wishlistTest" class="com.myamazon.testcases.OrderHistoryWishlistLabelTest"/>
+        <method signature="ProductAvailableTest.productAvailabilityTest(java.lang.String)[pri:0, instance:com.myamazon.testcases.ProductAvailableTest@6e20b53a]" name="productAvailabilityTest" class="com.myamazon.testcases.ProductAvailableTest"/>
+        <method signature="TitleTest.storeTitleTest()[pri:0, instance:com.myamazon.testcases.TitleTest@8dbdac1]" name="storeTitleTest" class="com.myamazon.testcases.TitleTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-06-12T17:47:52 IST" name="Test" finished-at="2022-06-12T17:50:33 IST" duration-ms="160724">
+      <class name="com.myamazon.testcases.LoginTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.myamazon.testcases.LoginTest@14dd9eb7]" started-at="2022-06-12T17:47:52 IST" name="beforeSuite" finished-at="2022-06-12T17:47:52 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.myamazon.testcases.LoginTest@14dd9eb7]" started-at="2022-06-12T17:47:53 IST" name="setup" finished-at="2022-06-12T17:48:03 IST" duration-ms="9618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.LoginTest@14dd9eb7]" started-at="2022-06-12T17:48:03 IST" name="loginTest" data-provider="credentials" finished-at="2022-06-12T17:48:10 IST" duration-ms="6890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vineet123456@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vineet123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myamazon.testcases.LoginTest@14dd9eb7]" started-at="2022-06-12T17:48:10 IST" name="tearDown" finished-at="2022-06-12T17:48:10 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.myamazon.testcases.LoginTest@14dd9eb7]" started-at="2022-06-12T17:50:33 IST" name="afterSuite" finished-at="2022-06-12T17:50:34 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.myamazon.testcases.LoginTest -->
+      <class name="com.myamazon.testcases.ProductAvailableTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.myamazon.testcases.ProductAvailableTest@6e20b53a]" started-at="2022-06-12T17:49:18 IST" name="setup" finished-at="2022-06-12T17:49:28 IST" duration-ms="9659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productAvailabilityTest(java.lang.String)[pri:0, instance:com.myamazon.testcases.ProductAvailableTest@6e20b53a]" started-at="2022-06-12T17:49:28 IST" name="productAvailabilityTest" data-provider="searchProduct" finished-at="2022-06-12T17:49:33 IST" duration-ms="4495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAvailabilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myamazon.testcases.ProductAvailableTest@6e20b53a]" started-at="2022-06-12T17:49:33 IST" name="tearDown" finished-at="2022-06-12T17:49:33 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myamazon.testcases.ProductAvailableTest -->
+      <class name="com.myamazon.testcases.TitleTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.myamazon.testcases.TitleTest@8dbdac1]" started-at="2022-06-12T17:49:10 IST" name="setup" finished-at="2022-06-12T17:49:18 IST" duration-ms="8334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="storeTitleTest()[pri:0, instance:com.myamazon.testcases.TitleTest@8dbdac1]" started-at="2022-06-12T17:49:18 IST" name="storeTitleTest" finished-at="2022-06-12T17:49:18 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myamazon.testcases.TitleTest@8dbdac1]" started-at="2022-06-12T17:49:18 IST" name="tearDown" finished-at="2022-06-12T17:49:18 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myamazon.testcases.TitleTest -->
+      <class name="com.myamazon.testcases.OrderHistoryWishlistLabelTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.myamazon.testcases.OrderHistoryWishlistLabelTest@71809907]" started-at="2022-06-12T17:49:33 IST" name="setup" finished-at="2022-06-12T17:49:44 IST" duration-ms="11467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderHistoryDetailTest(java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.OrderHistoryWishlistLabelTest@71809907]" started-at="2022-06-12T17:49:44 IST" name="orderHistoryDetailTest" data-provider="credentials" finished-at="2022-06-12T17:49:54 IST" duration-ms="9698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vineet123456@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vineet123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryDetailTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myamazon.testcases.OrderHistoryWishlistLabelTest@71809907]" started-at="2022-06-12T17:49:54 IST" name="tearDown" finished-at="2022-06-12T17:49:54 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.myamazon.testcases.OrderHistoryWishlistLabelTest@71809907]" started-at="2022-06-12T17:49:54 IST" name="setup" finished-at="2022-06-12T17:50:04 IST" duration-ms="9058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wishlistTest()[pri:0, instance:com.myamazon.testcases.OrderHistoryWishlistLabelTest@71809907]" started-at="2022-06-12T17:50:04 IST" name="wishlistTest" finished-at="2022-06-12T17:50:10 IST" duration-ms="6718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlistTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myamazon.testcases.OrderHistoryWishlistLabelTest@71809907]" started-at="2022-06-12T17:50:10 IST" name="tearDown" finished-at="2022-06-12T17:50:11 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myamazon.testcases.OrderHistoryWishlistLabelTest -->
+      <class name="com.myamazon.testcases.CartAddTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.myamazon.testcases.CartAddTest@32eff876]" started-at="2022-06-12T17:48:50 IST" name="setup" finished-at="2022-06-12T17:49:00 IST" duration-ms="9184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToCartTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.CartAddTest@32eff876]" started-at="2022-06-12T17:49:00 IST" name="addToCartTest" data-provider="getProduct" finished-at="2022-06-12T17:49:10 IST" duration-ms="10026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myamazon.testcases.CartAddTest@32eff876]" started-at="2022-06-12T17:49:10 IST" name="tearDown" finished-at="2022-06-12T17:49:10 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myamazon.testcases.CartAddTest -->
+      <class name="com.myamazon.testcases.EndToEndTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.myamazon.testcases.EndToEndTest@5e0826e7]" started-at="2022-06-12T17:48:10 IST" name="setup" finished-at="2022-06-12T17:48:19 IST" duration-ms="9227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.EndToEndTest@5e0826e7]" started-at="2022-06-12T17:48:19 IST" name="endToEndTest" data-provider="getProduct" finished-at="2022-06-12T17:48:50 IST" duration-ms="30840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myamazon.testcases.EndToEndTest@5e0826e7]" started-at="2022-06-12T17:48:50 IST" name="tearDown" finished-at="2022-06-12T17:48:50 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myamazon.testcases.EndToEndTest -->
+      <class name="com.myamazon.testcases.TotalPriceTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.myamazon.testcases.TotalPriceTest@3ce1e309]" started-at="2022-06-12T17:50:11 IST" name="setup" finished-at="2022-06-12T17:50:20 IST" duration-ms="9172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="totalPriceTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.myamazon.testcases.TotalPriceTest@3ce1e309]" started-at="2022-06-12T17:50:20 IST" name="totalPriceTest" data-provider="getProduct" finished-at="2022-06-12T17:50:33 IST" duration-ms="12817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t-shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalPriceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myamazon.testcases.TotalPriceTest@3ce1e309]" started-at="2022-06-12T17:50:33 IST" name="tearDown" finished-at="2022-06-12T17:50:33 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myamazon.testcases.TotalPriceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- All -->
+</testng-results>

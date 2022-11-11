@@ -1,0 +1,7 @@
+com\myamazon\testcases\TotalPriceTest.class
+com\myamazon\testcases\ProductAvailableTest.class
+com\myamazon\testcases\TitleTest.class
+com\myamazon\testcases\CreateAccountTest.class
+com\myamazon\testcases\LoginTest.class
+com\myamazon\testcases\CartAddTest.class
+com\myamazon\testcases\EndToEndTest.class
